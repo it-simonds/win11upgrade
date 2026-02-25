@@ -1,0 +1,423 @@
+
+======================================================================
+Win11 Upgrade All-In-One - START
+======================================================================
+[2026-02-25 23:17:16] Log file: C:\Temp\LHP5CG93339GD-20260225-231716.txt
+[2026-02-25 23:17:16] Computer: LHP5CG93339GD
+[2026-02-25 23:17:16] User: LHP5CG93339GD$
+[2026-02-25 23:17:17] OS: Microsoft Windows 10 Pro
+[2026-02-25 23:17:17] OS Version: 10.0.19045
+
+======================================================================
+BEFORE: Service State
+======================================================================
+[2026-02-25 23:17:17] Service state: usosvc = Running (StartType: Automatic)
+[2026-02-25 23:17:17] Service state: wuauserv = Stopped (StartType: Manual)
+[2026-02-25 23:17:17] Service state: bits = Stopped (StartType: Manual)
+
+======================================================================
+BEFORE: Registry State
+======================================================================
+[2026-02-25 23:17:17] Registry snapshot: WU UX Settings
+[2026-02-25 23:17:17] PSPath: HKLM:\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings
+[2026-02-25 23:17:17]   ActiveHoursEnd = 17
+[2026-02-25 23:17:17]   ActiveHoursStart = 8
+[2026-02-25 23:17:17]   AllowAutoWindowsUpdateDownloadOverMeteredNetwork = 0
+[2026-02-25 23:17:17]   ExcludeWUDriversInQualityUpdate = 0
+[2026-02-25 23:17:17]   FlightCommitted = 0
+[2026-02-25 23:17:17]   InsiderProgramEnabled = 0
+[2026-02-25 23:17:17]   IsAnyUpdateOrEnterprisePolicySet = 1
+[2026-02-25 23:17:17]   IsAnyUpdateOrEnterprisePolicySetTimeStamp = 133114164021460000
+[2026-02-25 23:17:17]   IsExpedited = 0
+[2026-02-25 23:17:17]   LastToastAction = 178
+[2026-02-25 23:17:17]   SmartActiveHoursEnd = 17
+[2026-02-25 23:17:17]   SmartActiveHoursStart = 8
+[2026-02-25 23:17:17]   SmartActiveHoursSuggestionState = 0
+[2026-02-25 23:17:17]   UxOption = 0
+[2026-02-25 23:17:17] Raw reg.exe query: HKLM\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings
+[2026-02-25 23:17:17]   
+[2026-02-25 23:17:17]   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings
+[2026-02-25 23:17:17]       ActiveHoursEnd    REG_DWORD    0x11
+[2026-02-25 23:17:17]       ActiveHoursStart    REG_DWORD    0x8
+[2026-02-25 23:17:17]       AllowAutoWindowsUpdateDownloadOverMeteredNetwork    REG_DWORD    0x0
+[2026-02-25 23:17:17]       ExcludeWUDriversInQualityUpdate    REG_DWORD    0x0
+[2026-02-25 23:17:17]       FlightCommitted    REG_DWORD    0x0
+[2026-02-25 23:17:17]       IsExpedited    REG_DWORD    0x0
+[2026-02-25 23:17:17]       UxOption    REG_DWORD    0x0
+[2026-02-25 23:17:17]       LastToastAction    REG_DWORD    0xb2
+[2026-02-25 23:17:17]       SmartActiveHoursEnd    REG_DWORD    0x11
+[2026-02-25 23:17:17]       SmartActiveHoursStart    REG_DWORD    0x8
+[2026-02-25 23:17:17]       SmartActiveHoursSuggestionState    REG_DWORD    0x0
+[2026-02-25 23:17:17]       IsAnyUpdateOrEnterprisePolicySet    REG_DWORD    0x1
+[2026-02-25 23:17:17]       IsAnyUpdateOrEnterprisePolicySetTimeStamp    REG_QWORD    0x1d8eaa07d127c20
+[2026-02-25 23:17:17]       InsiderProgramEnabled    REG_DWORD    0x0
+[2026-02-25 23:17:17]   
+[2026-02-25 23:17:17]   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings\ModelState
+[2026-02-25 23:17:17] Registry snapshot: WU UpdatePolicy PolicyState
+[2026-02-25 23:17:17] PSPath: HKLM:\SOFTWARE\Microsoft\WindowsUpdate\UpdatePolicy\PolicyState
+[2026-02-25 23:17:17]   BranchReadinessLevel = CB
+[2026-02-25 23:17:17]   DeferFeatureUpdates = 1
+[2026-02-25 23:17:17]   DeferQualityUpdates = 1
+[2026-02-25 23:17:17]   ExcludeWUDrivers = 0
+[2026-02-25 23:17:17]   FeatureUpdatePausePeriodInDays = 35
+[2026-02-25 23:17:17]   FeatureUpdatesDeferralInDays = 0
+[2026-02-25 23:17:17]   FeatureUpdatesPaused = 0
+[2026-02-25 23:17:17]   IsDeferralIsActive = 1
+[2026-02-25 23:17:17]   IsWUfBConfigured = 0
+[2026-02-25 23:17:17]   IsWUfBDualScanActive = 0
+[2026-02-25 23:17:17]   PauseFeatureUpdatesEndTime = 2025-12-17T00:00:00Z
+[2026-02-25 23:17:18]   PauseFeatureUpdatesStartTime = 2025-11-12T00:00:00Z
+[2026-02-25 23:17:18]   PauseQualityUpdatesEndTime = 2025-12-17T00:00:00Z
+[2026-02-25 23:17:18]   PauseQualityUpdatesStartTime = 2025-11-12T00:00:00Z
+[2026-02-25 23:17:18]   PolicySources = 4
+[2026-02-25 23:17:18]   QualityUpdatePausePeriodInDays = 35
+[2026-02-25 23:17:18]   QualityUpdatesDeferralInDays = 0
+[2026-02-25 23:17:18]   QualityUpdatesPaused = 0
+[2026-02-25 23:17:18]   SetPolicyDrivenUpdateSourceForDriverUpdates = 4294967295
+[2026-02-25 23:17:18]   SetPolicyDrivenUpdateSourceForFeatureUpdates = 4294967295
+[2026-02-25 23:17:18]   SetPolicyDrivenUpdateSourceForOtherUpdates = 4294967295
+[2026-02-25 23:17:18]   SetPolicyDrivenUpdateSourceForQualityUpdates = 4294967295
+[2026-02-25 23:17:18]   UseUpdateClassPolicySource = 0
+[2026-02-25 23:17:18] Raw reg.exe query: HKLM\SOFTWARE\Microsoft\WindowsUpdate\UpdatePolicy\PolicyState
+[2026-02-25 23:17:18]   
+[2026-02-25 23:17:18]   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UpdatePolicy\PolicyState
+[2026-02-25 23:17:18]       DeferQualityUpdates    REG_DWORD    0x1
+[2026-02-25 23:17:18]       DeferFeatureUpdates    REG_DWORD    0x1
+[2026-02-25 23:17:18]       QualityUpdatesDeferralInDays    REG_DWORD    0x0
+[2026-02-25 23:17:18]       FeatureUpdatesDeferralInDays    REG_DWORD    0x0
+[2026-02-25 23:17:18]       BranchReadinessLevel    REG_SZ    CB
+[2026-02-25 23:17:18]       IsDeferralIsActive    REG_DWORD    0x1
+[2026-02-25 23:17:18]       IsWUfBConfigured    REG_DWORD    0x0
+[2026-02-25 23:17:18]       IsWUfBDualScanActive    REG_DWORD    0x0
+[2026-02-25 23:17:18]       ExcludeWUDrivers    REG_DWORD    0x0
+[2026-02-25 23:17:18]       PolicySources    REG_DWORD    0x4
+[2026-02-25 23:17:18]       UseUpdateClassPolicySource    REG_DWORD    0x0
+[2026-02-25 23:17:18]       SetPolicyDrivenUpdateSourceForFeatureUpdates    REG_DWORD    0xffffffff
+[2026-02-25 23:17:18]       SetPolicyDrivenUpdateSourceForQualityUpdates    REG_DWORD    0xffffffff
+[2026-02-25 23:17:18]       SetPolicyDrivenUpdateSourceForDriverUpdates    REG_DWORD    0xffffffff
+[2026-02-25 23:17:18]       SetPolicyDrivenUpdateSourceForOtherUpdates    REG_DWORD    0xffffffff
+[2026-02-25 23:17:18]       QualityUpdatesPaused    REG_DWORD    0x0
+[2026-02-25 23:17:18]       QualityUpdatePausePeriodInDays    REG_DWORD    0x23
+[2026-02-25 23:17:18]       FeatureUpdatesPaused    REG_DWORD    0x0
+[2026-02-25 23:17:18]       FeatureUpdatePausePeriodInDays    REG_DWORD    0x23
+[2026-02-25 23:17:18]       PauseFeatureUpdatesStartTime    REG_SZ    2025-11-12T00:00:00Z
+[2026-02-25 23:17:18]       PauseFeatureUpdatesEndTime    REG_SZ    2025-12-17T00:00:00Z
+[2026-02-25 23:17:18]       PauseQualityUpdatesStartTime    REG_SZ    2025-11-12T00:00:00Z
+[2026-02-25 23:17:18]       PauseQualityUpdatesEndTime    REG_SZ    2025-12-17T00:00:00Z
+[2026-02-25 23:17:18]   
+[2026-02-25 23:17:18] Registry snapshot: GPO WindowsUpdate (Policies)
+[2026-02-25 23:17:18] PSPath: HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate
+[2026-02-25 23:17:18]   ActiveHoursMaxRange = 18
+[2026-02-25 23:17:18]   AllowAutoWindowsUpdateDownloadOverMeteredNetwork = 1
+[2026-02-25 23:17:18]   AUPowerManagement = 1
+[2026-02-25 23:17:18]   AutoRestartDeadlinePeriodInDays = 3
+[2026-02-25 23:17:18]   AutoRestartDeadlinePeriodInDaysForFeatureUpdates = 3
+[2026-02-25 23:17:18]   DeferUpdatePeriod = 0
+[2026-02-25 23:17:18]   DeferUpgrade = 1
+[2026-02-25 23:17:18]   DeferUpgradePeriod = 0
+[2026-02-25 23:17:18]   DisableWindowsUpdateAccess = 0
+[2026-02-25 23:17:18]   DoNotConnectToWindowsUpdateInternetLocations = 0
+[2026-02-25 23:17:18]   ElevateNonAdmins = 0
+[2026-02-25 23:17:18]   ExcludeWUDriversInQualityUpdate = 0
+[2026-02-25 23:17:18]   SetActiveHoursMaxRange = 1
+[2026-02-25 23:17:18]   SetAutoRestartDeadline = 1
+[2026-02-25 23:17:18] Raw reg.exe query: HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate
+[2026-02-25 23:17:18]   
+[2026-02-25 23:17:18]   HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate
+[2026-02-25 23:17:18]       DisableWindowsUpdateAccess    REG_DWORD    0x0
+[2026-02-25 23:17:18]       ElevateNonAdmins    REG_DWORD    0x0
+[2026-02-25 23:17:18]       DeferUpgrade    REG_DWORD    0x1
+[2026-02-25 23:17:18]       DeferUpgradePeriod    REG_DWORD    0x0
+[2026-02-25 23:17:18]       DeferUpdatePeriod    REG_DWORD    0x0
+[2026-02-25 23:17:18]       SetActiveHoursMaxRange    REG_DWORD    0x1
+[2026-02-25 23:17:18]       ActiveHoursMaxRange    REG_DWORD    0x12
+[2026-02-25 23:17:18]       DoNotConnectToWindowsUpdateInternetLocations    REG_DWORD    0x0
+[2026-02-25 23:17:18]       ExcludeWUDriversInQualityUpdate    REG_DWORD    0x0
+[2026-02-25 23:17:18]       AUPowerManagement    REG_DWORD    0x1
+[2026-02-25 23:17:18]       AllowAutoWindowsUpdateDownloadOverMeteredNetwork    REG_DWORD    0x1
+[2026-02-25 23:17:18]       SetAutoRestartDeadline    REG_DWORD    0x1
+[2026-02-25 23:17:18]       AutoRestartDeadlinePeriodInDays    REG_DWORD    0x3
+[2026-02-25 23:17:18]       AutoRestartDeadlinePeriodInDaysForFeatureUpdates    REG_DWORD    0x3
+[2026-02-25 23:17:18]   
+[2026-02-25 23:17:18]   HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
+[2026-02-25 23:17:18] Registry snapshot: GPO WindowsUpdate AU
+[2026-02-25 23:17:18] PSPath: HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
+[2026-02-25 23:17:18]   AllowMUUpdateService = 1
+[2026-02-25 23:17:18]   AUOptions = 4
+[2026-02-25 23:17:18]   AUPowerManagement = 1
+[2026-02-25 23:17:18]   AutoInstallMinorUpdates = 1
+[2026-02-25 23:17:18]   AutomaticMaintenanceEnabled = 1
+[2026-02-25 23:17:18]   DetectionFrequency = 1
+[2026-02-25 23:17:18]   DetectionFrequencyEnabled = 1
+[2026-02-25 23:17:18]   IncludeRecommendedUpdates = 1
+[2026-02-25 23:17:18]   NoAutoUpdate = 0
+[2026-02-25 23:17:18]   RebootRelaunchTimeout = 180
+[2026-02-25 23:17:18]   RebootRelaunchTimeoutEnabled = 1
+[2026-02-25 23:17:18]   RescheduleWaitTime = 15
+[2026-02-25 23:17:18]   RescheduleWaitTimeEnabled = 1
+[2026-02-25 23:17:18]   ScheduledInstallDay = 0
+[2026-02-25 23:17:18]   ScheduledInstallEveryWeek = 1
+[2026-02-25 23:17:18]   ScheduledInstallFirstWeek = 1
+[2026-02-25 23:17:18]   ScheduledInstallFourthWeek = 1
+[2026-02-25 23:17:18]   ScheduledInstallSecondWeek = 1
+[2026-02-25 23:17:18]   ScheduledInstallThirdWeek = 1
+[2026-02-25 23:17:19]   ScheduledInstallTime = 24
+[2026-02-25 23:17:19]   UseWUServer = 0
+[2026-02-25 23:17:19] Raw reg.exe query: HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
+[2026-02-25 23:17:19]   
+[2026-02-25 23:17:19]   HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
+[2026-02-25 23:17:19]       AUPowerManagement    REG_DWORD    0x1
+[2026-02-25 23:17:19]       AutoInstallMinorUpdates    REG_DWORD    0x1
+[2026-02-25 23:17:19]       IncludeRecommendedUpdates    REG_DWORD    0x1
+[2026-02-25 23:17:19]       UseWUServer    REG_DWORD    0x0
+[2026-02-25 23:17:19]       RescheduleWaitTimeEnabled    REG_DWORD    0x1
+[2026-02-25 23:17:19]       RescheduleWaitTime    REG_DWORD    0xf
+[2026-02-25 23:17:19]       DetectionFrequencyEnabled    REG_DWORD    0x1
+[2026-02-25 23:17:19]       DetectionFrequency    REG_DWORD    0x1
+[2026-02-25 23:17:19]       NoAutoUpdate    REG_DWORD    0x0
+[2026-02-25 23:17:19]       AUOptions    REG_DWORD    0x4
+[2026-02-25 23:17:19]       AutomaticMaintenanceEnabled    REG_DWORD    0x1
+[2026-02-25 23:17:19]       ScheduledInstallDay    REG_DWORD    0x0
+[2026-02-25 23:17:19]       ScheduledInstallTime    REG_DWORD    0x18
+[2026-02-25 23:17:19]       ScheduledInstallEveryWeek    REG_DWORD    0x1
+[2026-02-25 23:17:19]       ScheduledInstallFirstWeek    REG_DWORD    0x1
+[2026-02-25 23:17:19]       ScheduledInstallSecondWeek    REG_DWORD    0x1
+[2026-02-25 23:17:19]       ScheduledInstallThirdWeek    REG_DWORD    0x1
+[2026-02-25 23:17:19]       ScheduledInstallFourthWeek    REG_DWORD    0x1
+[2026-02-25 23:17:19]       AllowMUUpdateService    REG_DWORD    0x1
+[2026-02-25 23:17:19]       RebootRelaunchTimeoutEnabled    REG_DWORD    0x1
+[2026-02-25 23:17:19]       RebootRelaunchTimeout    REG_DWORD    0xb4
+[2026-02-25 23:17:19]   
+
+======================================================================
+Reset: Stop Services
+======================================================================
+[2026-02-25 23:17:19] Stopping service: usosvc (timeout 30s)
+[2026-02-25 23:17:19] Stopped service: usosvc
+[2026-02-25 23:17:19] Service already stopped: wuauserv
+[2026-02-25 23:17:19] Service already stopped: bits
+
+======================================================================
+Reset: Rename Caches
+======================================================================
+[2026-02-25 23:17:19] Renaming folder:
+[2026-02-25 23:17:19]   From: C:\Windows\SoftwareDistribution
+[2026-02-25 23:17:19]   To:   C:\Windows\SoftwareDistribution.old-20260225-231719
+[2026-02-25 23:17:19] Rename successful.
+[2026-02-25 23:17:20] Skipping catroot2 rename.
+
+======================================================================
+Reset: Start Services
+======================================================================
+[2026-02-25 23:17:20] Starting service: usosvc
+[2026-02-25 23:17:22] Service now: usosvc = Running
+[2026-02-25 23:17:22] Service already running: wuauserv
+[2026-02-25 23:17:22] Starting service: bits
+[2026-02-25 23:17:25] Service now: bits = Running
+
+======================================================================
+Trigger: Quick Scan (non-blocking)
+======================================================================
+[2026-02-25 23:17:25] Launching: UsoClient StartScan
+[2026-02-25 23:17:25] UsoClient StartScan launched.
+[2026-02-25 23:17:25] Waiting 10 seconds...
+
+======================================================================
+Available Updates (COM list)
+======================================================================
+[2026-02-25 23:17:35] Windows Update COM: Searching for available updates...
+[2026-02-25 23:25:57] Windows Update COM: Updates found: 1
+[2026-02-25 23:25:57] - Windows 11, version 25H2 | Downloaded=False
+
+======================================================================
+Install Target Feature Update
+======================================================================
+[2026-02-25 23:25:57] Windows Update COM: Searching for feature update target...
+[2026-02-25 23:26:11] Target feature update not found.
+[2026-02-25 23:26:11] InstallOutcome: Found=False DownloadResult= InstallResult= RebootRequired=False
+
+======================================================================
+AFTER: Registry State
+======================================================================
+[2026-02-25 23:26:11] Registry snapshot: WU UX Settings
+[2026-02-25 23:26:11] PSPath: HKLM:\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings
+[2026-02-25 23:26:11]   ActiveHoursEnd = 17
+[2026-02-25 23:26:11]   ActiveHoursStart = 8
+[2026-02-25 23:26:11]   AllowAutoWindowsUpdateDownloadOverMeteredNetwork = 0
+[2026-02-25 23:26:11]   ExcludeWUDriversInQualityUpdate = 0
+[2026-02-25 23:26:11]   FlightCommitted = 0
+[2026-02-25 23:26:11]   InsiderProgramEnabled = 0
+[2026-02-25 23:26:11]   IsAnyUpdateOrEnterprisePolicySet = 1
+[2026-02-25 23:26:11]   IsAnyUpdateOrEnterprisePolicySetTimeStamp = 133114164021460000
+[2026-02-25 23:26:11]   IsExpedited = 0
+[2026-02-25 23:26:11]   LastToastAction = 178
+[2026-02-25 23:26:11]   SmartActiveHoursEnd = 17
+[2026-02-25 23:26:11]   SmartActiveHoursStart = 8
+[2026-02-25 23:26:11]   SmartActiveHoursSuggestionState = 0
+[2026-02-25 23:26:11]   UxOption = 0
+[2026-02-25 23:26:11] Raw reg.exe query: HKLM\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings
+[2026-02-25 23:26:11]   
+[2026-02-25 23:26:11]   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings
+[2026-02-25 23:26:11]       ActiveHoursEnd    REG_DWORD    0x11
+[2026-02-25 23:26:11]       ActiveHoursStart    REG_DWORD    0x8
+[2026-02-25 23:26:11]       AllowAutoWindowsUpdateDownloadOverMeteredNetwork    REG_DWORD    0x0
+[2026-02-25 23:26:11]       ExcludeWUDriversInQualityUpdate    REG_DWORD    0x0
+[2026-02-25 23:26:11]       FlightCommitted    REG_DWORD    0x0
+[2026-02-25 23:26:11]       IsExpedited    REG_DWORD    0x0
+[2026-02-25 23:26:11]       UxOption    REG_DWORD    0x0
+[2026-02-25 23:26:11]       LastToastAction    REG_DWORD    0xb2
+[2026-02-25 23:26:11]       SmartActiveHoursEnd    REG_DWORD    0x11
+[2026-02-25 23:26:11]       SmartActiveHoursStart    REG_DWORD    0x8
+[2026-02-25 23:26:11]       SmartActiveHoursSuggestionState    REG_DWORD    0x0
+[2026-02-25 23:26:11]       IsAnyUpdateOrEnterprisePolicySet    REG_DWORD    0x1
+[2026-02-25 23:26:11]       IsAnyUpdateOrEnterprisePolicySetTimeStamp    REG_QWORD    0x1d8eaa07d127c20
+[2026-02-25 23:26:11]       InsiderProgramEnabled    REG_DWORD    0x0
+[2026-02-25 23:26:11]   
+[2026-02-25 23:26:11]   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings\ModelState
+[2026-02-25 23:26:11] Registry snapshot: WU UpdatePolicy PolicyState
+[2026-02-25 23:26:11] PSPath: HKLM:\SOFTWARE\Microsoft\WindowsUpdate\UpdatePolicy\PolicyState
+[2026-02-25 23:26:11]   BranchReadinessLevel = CB
+[2026-02-25 23:26:11]   DeferFeatureUpdates = 1
+[2026-02-25 23:26:11]   DeferQualityUpdates = 1
+[2026-02-25 23:26:11]   ExcludeWUDrivers = 0
+[2026-02-25 23:26:12]   FeatureUpdatePausePeriodInDays = 35
+[2026-02-25 23:26:12]   FeatureUpdatesDeferralInDays = 0
+[2026-02-25 23:26:12]   FeatureUpdatesPaused = 0
+[2026-02-25 23:26:12]   IsDeferralIsActive = 1
+[2026-02-25 23:26:12]   IsWUfBConfigured = 0
+[2026-02-25 23:26:12]   IsWUfBDualScanActive = 0
+[2026-02-25 23:26:12]   PauseFeatureUpdatesEndTime = 2025-12-17T00:00:00Z
+[2026-02-25 23:26:12]   PauseFeatureUpdatesStartTime = 2025-11-12T00:00:00Z
+[2026-02-25 23:26:12]   PauseQualityUpdatesEndTime = 2025-12-17T00:00:00Z
+[2026-02-25 23:26:12]   PauseQualityUpdatesStartTime = 2025-11-12T00:00:00Z
+[2026-02-25 23:26:12]   PolicySources = 4
+[2026-02-25 23:26:12]   QualityUpdatePausePeriodInDays = 35
+[2026-02-25 23:26:12]   QualityUpdatesDeferralInDays = 0
+[2026-02-25 23:26:12]   QualityUpdatesPaused = 0
+[2026-02-25 23:26:12]   SetPolicyDrivenUpdateSourceForDriverUpdates = 4294967295
+[2026-02-25 23:26:12]   SetPolicyDrivenUpdateSourceForFeatureUpdates = 4294967295
+[2026-02-25 23:26:12]   SetPolicyDrivenUpdateSourceForOtherUpdates = 4294967295
+[2026-02-25 23:26:12]   SetPolicyDrivenUpdateSourceForQualityUpdates = 4294967295
+[2026-02-25 23:26:12]   UseUpdateClassPolicySource = 0
+[2026-02-25 23:26:12] Raw reg.exe query: HKLM\SOFTWARE\Microsoft\WindowsUpdate\UpdatePolicy\PolicyState
+[2026-02-25 23:26:12]   
+[2026-02-25 23:26:12]   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UpdatePolicy\PolicyState
+[2026-02-25 23:26:12]       DeferQualityUpdates    REG_DWORD    0x1
+[2026-02-25 23:26:12]       DeferFeatureUpdates    REG_DWORD    0x1
+[2026-02-25 23:26:12]       QualityUpdatesDeferralInDays    REG_DWORD    0x0
+[2026-02-25 23:26:12]       FeatureUpdatesDeferralInDays    REG_DWORD    0x0
+[2026-02-25 23:26:12]       BranchReadinessLevel    REG_SZ    CB
+[2026-02-25 23:26:12]       IsDeferralIsActive    REG_DWORD    0x1
+[2026-02-25 23:26:12]       IsWUfBConfigured    REG_DWORD    0x0
+[2026-02-25 23:26:12]       IsWUfBDualScanActive    REG_DWORD    0x0
+[2026-02-25 23:26:12]       ExcludeWUDrivers    REG_DWORD    0x0
+[2026-02-25 23:26:12]       PolicySources    REG_DWORD    0x4
+[2026-02-25 23:26:12]       UseUpdateClassPolicySource    REG_DWORD    0x0
+[2026-02-25 23:26:12]       SetPolicyDrivenUpdateSourceForFeatureUpdates    REG_DWORD    0xffffffff
+[2026-02-25 23:26:12]       SetPolicyDrivenUpdateSourceForQualityUpdates    REG_DWORD    0xffffffff
+[2026-02-25 23:26:12]       SetPolicyDrivenUpdateSourceForDriverUpdates    REG_DWORD    0xffffffff
+[2026-02-25 23:26:12]       SetPolicyDrivenUpdateSourceForOtherUpdates    REG_DWORD    0xffffffff
+[2026-02-25 23:26:12]       QualityUpdatesPaused    REG_DWORD    0x0
+[2026-02-25 23:26:12]       QualityUpdatePausePeriodInDays    REG_DWORD    0x23
+[2026-02-25 23:26:12]       FeatureUpdatesPaused    REG_DWORD    0x0
+[2026-02-25 23:26:12]       FeatureUpdatePausePeriodInDays    REG_DWORD    0x23
+[2026-02-25 23:26:12]       PauseFeatureUpdatesStartTime    REG_SZ    2025-11-12T00:00:00Z
+[2026-02-25 23:26:12]       PauseFeatureUpdatesEndTime    REG_SZ    2025-12-17T00:00:00Z
+[2026-02-25 23:26:12]       PauseQualityUpdatesStartTime    REG_SZ    2025-11-12T00:00:00Z
+[2026-02-25 23:26:12]       PauseQualityUpdatesEndTime    REG_SZ    2025-12-17T00:00:00Z
+[2026-02-25 23:26:12]   
+[2026-02-25 23:26:12] Registry snapshot: GPO WindowsUpdate (Policies)
+[2026-02-25 23:26:12] PSPath: HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate
+[2026-02-25 23:26:12]   ActiveHoursMaxRange = 18
+[2026-02-25 23:26:12]   AllowAutoWindowsUpdateDownloadOverMeteredNetwork = 1
+[2026-02-25 23:26:12]   AUPowerManagement = 1
+[2026-02-25 23:26:12]   AutoRestartDeadlinePeriodInDays = 3
+[2026-02-25 23:26:12]   AutoRestartDeadlinePeriodInDaysForFeatureUpdates = 3
+[2026-02-25 23:26:12]   DeferUpdatePeriod = 0
+[2026-02-25 23:26:12]   DeferUpgrade = 1
+[2026-02-25 23:26:12]   DeferUpgradePeriod = 0
+[2026-02-25 23:26:12]   DisableWindowsUpdateAccess = 0
+[2026-02-25 23:26:12]   DoNotConnectToWindowsUpdateInternetLocations = 0
+[2026-02-25 23:26:12]   ElevateNonAdmins = 0
+[2026-02-25 23:26:12]   ExcludeWUDriversInQualityUpdate = 0
+[2026-02-25 23:26:12]   SetActiveHoursMaxRange = 1
+[2026-02-25 23:26:12]   SetAutoRestartDeadline = 1
+[2026-02-25 23:26:12] Raw reg.exe query: HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate
+[2026-02-25 23:26:12]   
+[2026-02-25 23:26:12]   HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate
+[2026-02-25 23:26:12]       DisableWindowsUpdateAccess    REG_DWORD    0x0
+[2026-02-25 23:26:12]       ElevateNonAdmins    REG_DWORD    0x0
+[2026-02-25 23:26:12]       DeferUpgrade    REG_DWORD    0x1
+[2026-02-25 23:26:12]       DeferUpgradePeriod    REG_DWORD    0x0
+[2026-02-25 23:26:12]       DeferUpdatePeriod    REG_DWORD    0x0
+[2026-02-25 23:26:12]       SetActiveHoursMaxRange    REG_DWORD    0x1
+[2026-02-25 23:26:12]       ActiveHoursMaxRange    REG_DWORD    0x12
+[2026-02-25 23:26:12]       DoNotConnectToWindowsUpdateInternetLocations    REG_DWORD    0x0
+[2026-02-25 23:26:12]       ExcludeWUDriversInQualityUpdate    REG_DWORD    0x0
+[2026-02-25 23:26:12]       AUPowerManagement    REG_DWORD    0x1
+[2026-02-25 23:26:12]       AllowAutoWindowsUpdateDownloadOverMeteredNetwork    REG_DWORD    0x1
+[2026-02-25 23:26:12]       SetAutoRestartDeadline    REG_DWORD    0x1
+[2026-02-25 23:26:12]       AutoRestartDeadlinePeriodInDays    REG_DWORD    0x3
+[2026-02-25 23:26:12]       AutoRestartDeadlinePeriodInDaysForFeatureUpdates    REG_DWORD    0x3
+[2026-02-25 23:26:12]   
+[2026-02-25 23:26:12]   HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
+[2026-02-25 23:26:12] Registry snapshot: GPO WindowsUpdate AU
+[2026-02-25 23:26:12] PSPath: HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
+[2026-02-25 23:26:12]   AllowMUUpdateService = 1
+[2026-02-25 23:26:12]   AUOptions = 4
+[2026-02-25 23:26:12]   AUPowerManagement = 1
+[2026-02-25 23:26:12]   AutoInstallMinorUpdates = 1
+[2026-02-25 23:26:12]   AutomaticMaintenanceEnabled = 1
+[2026-02-25 23:26:12]   DetectionFrequency = 1
+[2026-02-25 23:26:12]   DetectionFrequencyEnabled = 1
+[2026-02-25 23:26:12]   IncludeRecommendedUpdates = 1
+[2026-02-25 23:26:12]   NoAutoUpdate = 0
+[2026-02-25 23:26:12]   RebootRelaunchTimeout = 180
+[2026-02-25 23:26:12]   RebootRelaunchTimeoutEnabled = 1
+[2026-02-25 23:26:12]   RescheduleWaitTime = 15
+[2026-02-25 23:26:12]   RescheduleWaitTimeEnabled = 1
+[2026-02-25 23:26:12]   ScheduledInstallDay = 0
+[2026-02-25 23:26:12]   ScheduledInstallEveryWeek = 1
+[2026-02-25 23:26:12]   ScheduledInstallFirstWeek = 1
+[2026-02-25 23:26:12]   ScheduledInstallFourthWeek = 1
+[2026-02-25 23:26:12]   ScheduledInstallSecondWeek = 1
+[2026-02-25 23:26:12]   ScheduledInstallThirdWeek = 1
+[2026-02-25 23:26:12]   ScheduledInstallTime = 24
+[2026-02-25 23:26:12]   UseWUServer = 0
+[2026-02-25 23:26:12] Raw reg.exe query: HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
+[2026-02-25 23:26:12]   
+[2026-02-25 23:26:12]   HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
+[2026-02-25 23:26:12]       AUPowerManagement    REG_DWORD    0x1
+[2026-02-25 23:26:12]       AutoInstallMinorUpdates    REG_DWORD    0x1
+[2026-02-25 23:26:12]       IncludeRecommendedUpdates    REG_DWORD    0x1
+[2026-02-25 23:26:12]       UseWUServer    REG_DWORD    0x0
+[2026-02-25 23:26:12]       RescheduleWaitTimeEnabled    REG_DWORD    0x1
+[2026-02-25 23:26:12]       RescheduleWaitTime    REG_DWORD    0xf
+[2026-02-25 23:26:12]       DetectionFrequencyEnabled    REG_DWORD    0x1
+[2026-02-25 23:26:12]       DetectionFrequency    REG_DWORD    0x1
+[2026-02-25 23:26:12]       NoAutoUpdate    REG_DWORD    0x0
+[2026-02-25 23:26:12]       AUOptions    REG_DWORD    0x4
+[2026-02-25 23:26:12]       AutomaticMaintenanceEnabled    REG_DWORD    0x1
+[2026-02-25 23:26:12]       ScheduledInstallDay    REG_DWORD    0x0
+[2026-02-25 23:26:12]       ScheduledInstallTime    REG_DWORD    0x18
+[2026-02-25 23:26:12]       ScheduledInstallEveryWeek    REG_DWORD    0x1
+[2026-02-25 23:26:12]       ScheduledInstallFirstWeek    REG_DWORD    0x1
+[2026-02-25 23:26:12]       ScheduledInstallSecondWeek    REG_DWORD    0x1
+[2026-02-25 23:26:12]       ScheduledInstallThirdWeek    REG_DWORD    0x1
+[2026-02-25 23:26:12]       ScheduledInstallFourthWeek    REG_DWORD    0x1
+[2026-02-25 23:26:13]       AllowMUUpdateService    REG_DWORD    0x1
+[2026-02-25 23:26:13]       RebootRelaunchTimeoutEnabled    REG_DWORD    0x1
+[2026-02-25 23:26:13]       RebootRelaunchTimeout    REG_DWORD    0xb4
+[2026-02-25 23:26:13]   
+
+======================================================================
+AFTER: Service State
+======================================================================
+[2026-02-25 23:26:13] Service state: usosvc = Running (StartType: Automatic)
+[2026-02-25 23:26:13] Service state: wuauserv = Running (StartType: Manual)
+[2026-02-25 23:26:13] Service state: bits = Stopped (StartType: Manual)
+
+======================================================================
+Win11 Upgrade All-In-One - COMPLETE
+======================================================================
+[2026-02-25 23:26:13] Script finished.
